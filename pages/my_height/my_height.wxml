@@ -1,0 +1,15 @@
+<!--pages/my_height/my_height.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+
+菜品总价格为</button>
+
+
+
+<canvas class = "canvas" id="chart3"
+
+canvas-id="tempe"></canvas>
+<view wx:if="{{money>=900}}" style="font-size:1.6em;margin-left:200px;"> 0元 </view>
+<view wx:elif="{{money>490}}" style="font-size:1.6em;margin-left:200px;"> 3元 </view>
+<view wx:else style="font-size:1.6em;margin-left:200px;"> 6元 </view>
+<!-- <view wx:if="{{money>=900}}" class="height" >{{money}}</view> -->
